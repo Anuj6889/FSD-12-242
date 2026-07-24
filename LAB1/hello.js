@@ -28,6 +28,3 @@ console.log(add2(20,10));
 
 
 
-
-
-
