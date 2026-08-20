@@ -30,12 +30,22 @@ const showCart = async () => {
   const data = await getCart();
   console.table(data);
   let total = 0;
-  for(let i=0; i<data.length; i++){
-    total += data[i].price * data[i].qty;
-  }
-  console.log(`Total amount: ${total}`);
+  total = data.reduce((acc, item) => acc + item.price * item.qty, 0);
+  console.log("Total amount to pay:", total);
 };
 
+const removeFromCart = async (id) => {
+  const data = await getCart();
+  const count = data.length;
+  console.log("Items in cart:", count);
+};
+
+const countTotal = async () => {
+  const data = await getCart();
+  let total = 0;
+  total = data.reduce((acc, item) => acc + item.price * item.qty, 0);
+  console.log("Total amount to pay:", total);
+}
 const main = async () => {
   let choice;
   const cin = readline.createInterface({ input: stdin, output: stdout });

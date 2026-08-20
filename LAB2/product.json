@@ -16,11 +16,5 @@
     "name": "HP Laptop",
     "price": 65000,
     "qty": 1
-  },
-  {
-    "id": 1,
-    "name": "\"laptop\"",
-    "price": 69000,
-    "qty": 3
   }
 ]
