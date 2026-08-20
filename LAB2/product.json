@@ -16,5 +16,11 @@
     "name": "HP Laptop",
     "price": 65000,
     "qty": 1
+  },
+ {
+    "id": 1,
+    "name": "HP Wireless Mouse",
+    "price": 650,
+    "qty": 5
   }
 ]
