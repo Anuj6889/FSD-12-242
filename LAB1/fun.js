@@ -2,6 +2,8 @@
 // return its in word
 // 0 - One
 //5 - Five
+//html , CSS(bookstrap),tailwind,event
+//backend
 
 const toWords = (digit)=>{
     const words = ["Zero","One","Two","Three","Four"

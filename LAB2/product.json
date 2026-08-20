@@ -1,0 +1,26 @@
+[
+  {
+    "id": 101,
+    "name": "iPhone 17",
+    "price": 79999,
+    "qty": 1
+  },
+  {
+    "id": 102,
+    "name": "Samsung Galaxy S25",
+    "price": 74999,
+    "qty": 2
+  },
+  {
+    "id": 103,
+    "name": "HP Laptop",
+    "price": 65000,
+    "qty": 1
+  },
+  {
+    "id": 1,
+    "name": "\"laptop\"",
+    "price": 69000,
+    "qty": 3
+  }
+]
